@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*cabeçalho*/
+
+header{
+    height: 80px;
+    background-color: white;
+}
+
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 258.28px;
+}
+
+.logo2{
+    width: 93px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+.menu-centro{
+    width: 348px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+
+
+.menu-lateral{
+    width: 104px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.busca{
+    width: 180px;
+}
+
+.menu2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 284px;
+}
+
+#divBusca{
+    background-color:#f2f2f2;
+     
+    border-radius:25px;
+    width:180px;
+    height: 40px;
+    display: flex;
+    flex-direction: row; 
+    
+    align-items: center;
+    margin-right: 0px;
+  }
+  
+  #txtBusca{
+    float:right;
+    background-color:transparent;
+    color: #828282;
+    padding-left:16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size:14px;
+    border:none;
+    height:17px;
+    width:150px;
+    outline: none;
+  }
+
+  .imgBusca{
+      width: 22px;
+      height: 22px;
+      
+  }
+
+.link-lat{
+    width: 21.84;
+}
+
+.link-menu{
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    
+}
+
+.link-menu:hover{
+    font-weight: bold;
+}
+
+
+/*politica de privacidade*/
+
+body{
+    background-color: #f2f2f2;
+}
+
+#divProcure{
+    background-color:#ffffff;
+     
+    border-radius:25px;
+    width:320px;
+    height: 40px;
+    display: flex;
+    flex-direction: row; 
+    
+    align-items: center;
+    margin-right: 0px;
+  }
+  
+  #txtProcure{
+    float:right;
+    background-color:transparent;
+    color: #828282;
+    padding-left:16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size:14px;
+    border:none;
+    height:17px;
+    width:280px;
+    outline: none;
+  }
+
+  .imgProcure{
+      width: 22px;
+      height: 22px;
+      
+  }
+
+.ajuda{
+    height: 980px;
+    display: flex;
+    
+}
+
+.ajuda .conteudo-ajuda{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.ajuda .conteudo-ajuda .titulo-ajuda{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center ;
+    margin: 70px;
+}
+
+.ajuda .ajuda-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+     
+     
+}
+
+.ajuda .ajuda-items .a1{
+    background-image: url(../img/perfil\ \(1\).png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a2{
+    background-image: url(../img/sacola.png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a3{
+    background-image: url(../img/cartao.png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a4{
+    background-image: url(../img/caixa.png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a5{
+    background-image: url(../img/troca\ \(1\).png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a6{
+    background-image: url(../img/presene.png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a7{
+    background-image: url(../img/promocao\ \(1\).png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items .a8{
+    background-image: url(../img/cadeado\ \(1\).png);
+    width: 270px;
+    height: 190px;
+    padding-top: 35px;
+}
+
+.ajuda .ajuda-items a{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    width: 270px;
+    height: 190px;
+    font-size: 18px;
+}
+
+.ajuda .ajuda-items a:hover{
+    font-weight: bold;
+}
+
+.ajuda h2{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/*footer*/
+
+footer{
+    height: 80px;
+    background-color: #333333;
+    
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+.menuRodape h3{
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.redesSociais{
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.redes{
+    width: 30px;
+}
+
+.rodape p{
+    color: #ffffff;
+}
