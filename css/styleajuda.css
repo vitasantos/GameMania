@@ -42,6 +42,11 @@ header{
     
 }
 
+.menu-centro a:hover{
+    font-weight: bolder;
+    color: #333333;
+}
+
 
 
 .menu-lateral{
